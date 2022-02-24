@@ -68,6 +68,7 @@ public class upsProject {
 		//Select State
 		Select state=new Select  (driver.findElement(By.xpath("//*[@id=\"origin-cac_state\"]")));
 		state.selectByVisibleText("NewYork");
+		System.out.println("Fatima updated the file");
 		
 		
 		
